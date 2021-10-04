@@ -1,0 +1,78 @@
+{
+"redirect" : {
+
+"HOMEURL" : "https://kabinetdeveloperexample.blogspot.com/2020/12/optimasi-blogger.html",
+ 
+ // testing server json yang dipakai
+"Json_popup_Wait" : "Server Ready . . . v19j13",
+
+
+"MODE_NO_ADS" : true,
+"MODE_TES_IKLAN_FAN_ADMOB_STARTAPP_APPDODEAL" : true,
+
+
+// mode pengaturan iklan
+// Mode ADMOB       Admob backup Unity Backup Startapp
+// Mode FAN         FAN backup Unity Backup Startapp
+// Mode APPODEAL    Appodeal backup Unity Backup Startapp
+// Mode UNITY       Unity backup Startapp
+// Mode APPLOVIN    Applovin backup Unity Backup Startapp
+ // native hanya bisa admob fan appodeal
+"PENGATURAN_IKLAN_banner" : "ADMOB",
+"PENGATURAN_IKLAN_inter" : "ADMOB",
+"PENGATURAN_IKLAN_native" : "FAN",
+
+"INTER_COUNT" : 4,
+
+"enable_strap" : true,
+"enable_strap_SplahScreen" : false,
+
+"ads_on_exit_dialog" : true,
+
+"Mode_offline_mp3" : false,
+"Enable_Sticky_Notification" : false,
+
+
+"STARAPPID" : "201365479",
+
+"ADMOB_BANNER" : "ca-app-pub-2314593950848693/9824586142",
+"ADMOB_INTER" : "ca-app-pub-2314593950848693/8511504478",
+"ADMOB_NATIV" : "ca-app-pub-2314593950848693/5885341134",
+
+"hpk_alien" : "kuota data 30gb",
+"HPK_ADMOB1" : "Kuota Data",
+"HPK_ADMOB2" : "Bank Jenius",
+"HPK_ADMOB3" : "Simpati",
+"HPK_ADMOB4" : "Telkomsel",
+"HPK_ADMOB5" : "Donasi",
+
+"FAN_BANNER" : "YOUR_PLACEMENT_ID",
+"FAN_INTER" : "YOUR_PLACEMENT_ID",
+"FAN_NATIVE" : "YOUR_PLACEMENT_ID",
+
+
+"APPODEAL_APP_ID" : "YOUR_APPODEAL_APP_KEY",
+
+"UNITY_BANNER" : "banner",
+"UNITY_INTERSTITIAL" : "interstitial",
+"UNITY_GAME_ID" : "4045251",
+"UNITY_TEST_MODE" : "true",
+
+"APPLOVIN_BANNER_ID" : "71f5faf4df08917c",
+"APPLOVIN_INTERSTITIAL_ID" : "4711e1718612d7dc",
+
+"Button_Start" : "START",
+"Button_Share" : "SHARE TO FRIEND",
+"Button_Rating" : "RATING NOW",
+
+
+"Exit_Popup_Dialog" : "Agar Kami lebih semangat mengembangkan Aplikasi ini \n\n Bantu kami dengan rating bingtang 5 ya :)",
+"Rate_Button" : "Rate 5 Stars",
+"Later_Button" : "Rate Later",
+"enable_Share_button" : true,
+"Share_TXT" : "Supperr APPS Download Now",
+"More_Button" : "Share Via WhatsApp",
+"Url_More_Apps" : "https:// jika share button TRUE maka tombol MORE berubah SHARE"
+
+  }
+}

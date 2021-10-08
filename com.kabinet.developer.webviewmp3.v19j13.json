@@ -1,45 +1,52 @@
 {
 "redirect" : {
 
-"HOMEURL" : "https://giandradev.blogspot.com/",
- 
- // testing server json yang dipakai
-"Json_popup_Wait" : "Server Ready . . . v19j13",
+// untuk merubah menjadi mode mp3 - panggil link ini via offline / json - "file:///android_asset/music/playlist.html"
+// pastikan mode offline mp3 true jika merubah ke mode mp3
+// https://kabinetdeveloperexample.blogspot.com/2020/12/optimasi-blogger.html
 
+"HOMEURL" : "https://giandradev.blogspot.com",
 
-"MODE_NO_ADS" : true,
-"MODE_TES_IKLAN_FAN_ADMOB_STARTAPP_APPDODEAL" : true,
+// testing server json yang dipakai
+"JSON_POPUP_WAIT" : "Server Ready . . . v20j14",
 
+// Redirect ke apps lain 
+"REDIRECT_TRAFFIC" : false,
+"LINK_REDIRECT" : "https://play.google.com/store/apps/developer?id=devname",
 
-// mode pengaturan iklan
-// Mode ADMOB       Admob backup Unity Backup Startapp
-// Mode FAN         FAN backup Unity Backup Startapp
-// Mode APPODEAL    Appodeal backup Unity Backup Startapp
-// Mode UNITY       Unity backup Startapp
-// Mode APPLOVIN    Applovin backup Unity Backup Startapp
- // native hanya bisa admob fan appodeal
-"PENGATURAN_IKLAN_banner" : "ADMOB",
-"PENGATURAN_IKLAN_inter" : "ADMOB",
-"PENGATURAN_IKLAN_native" : "FAN",
+// main ads ke backup ads 
+"MODE_BACKUP_ADS" : true,
+"MODE_NO_ADS" : false,
+"MODE_TES_IKLAN_FAN_ADMOB_UNITY_STARTAPP_APPDODEAL" : false,
 
-"INTER_COUNT" : 4,
+//     mode pengaturan iklan
+//     Mode ADMOB       Admob backup Unity Backup Startapp
+//     Mode FAN         FAN backup Unity Backup Startapp
+//     Mode APPODEAL    Appodeal backup Unity Backup Startapp
+//     Mode UNITY       Unity backup Startapp
+//     Mode APPLOVIN    Applovin backup Unity Backup Startapp
+//     Mode TAPDAQ    TAPDAQ backup Unity Backup Startapp
+"PENGATURAN_IKLAN_BANNER" : "ADMOB",
+"PENGATURAN_IKLAN_INTER" : "ADMOB",
+"PENGATURAN_IKLAN_NATIVE" : "ADMOB",
 
-"enable_strap" : true,
-"enable_strap_SplahScreen" : false,
+"INTER_COUNT" : "20",
 
-"ads_on_exit_dialog" : true,
+"ENABLE_STRAP" : true,
+"ENABLE_STRAP_SPLAHSCREEN" : false,
 
-"Mode_offline_mp3" : false,
-"Enable_Sticky_Notification" : false,
+"ADS_ON_EXIT_DIALOG" : false, // WARNING - CTR MENINGKAT
 
+"MODE_OFFLINE_MP3" : false,
+"ENABLE_STICKY_NOTIFICATION" : true,
 
-"STARAPPID" : "201365479",
+"STARTAPPID" : "201365479",
 
-"ADMOB_BANNER" : "ca-app-pub-2314593950848693/9824586142",
-"ADMOB_INTER" : "ca-app-pub-2314593950848693/8511504478",
-"ADMOB_NATIV" : "ca-app-pub-2314593950848693/5885341134",
+"ADMOB_BANNER" : "ca-app-pub-3940256099942544/6300978111",
+"ADMOB_INTER" : "ca-app-pub-3940256099942544/1033173712",
+"ADMOB_NATIV" : "ca-app-pub-3940256099942544/2247696110",
 
-"hpk_alien" : "kuota data 30gb",
+"HPK_ALIENDROID" : "kuota data 30gb",
 "HPK_ADMOB1" : "Kuota Data",
 "HPK_ADMOB2" : "Bank Jenius",
 "HPK_ADMOB3" : "Simpati",
@@ -50,29 +57,44 @@
 "FAN_INTER" : "YOUR_PLACEMENT_ID",
 "FAN_NATIVE" : "YOUR_PLACEMENT_ID",
 
-
 "APPODEAL_APP_ID" : "YOUR_APPODEAL_APP_KEY",
 
 "UNITY_BANNER" : "banner",
 "UNITY_INTERSTITIAL" : "interstitial",
 "UNITY_GAME_ID" : "4045251",
-"UNITY_TEST_MODE" : "true",
 
 "APPLOVIN_BANNER_ID" : "71f5faf4df08917c",
 "APPLOVIN_INTERSTITIAL_ID" : "4711e1718612d7dc",
 
-"Button_Start" : "START",
-"Button_Share" : "SHARE TO FRIEND",
-"Button_Rating" : "RATING NOW",
+"TAPDAQ_APP_ID" : "6120a5b008fe6c2d735d6a78",
+"TAPDAQ_CLIENT_KEY" : "fb5af849-b396-473b-a139-eecc9c3a4716",
 
+"BUTTON_START" : "START",
+"BUTTON_SHARE" : "SHARE TO FRIEND",
+"BUTTON_RATING" : "RATING NOW",
 
-"Exit_Popup_Dialog" : "Agar Kami lebih semangat mengembangkan Aplikasi ini \n\n Bantu kami dengan rating bingtang 5 ya :)",
-"Rate_Button" : "Rate 5 Stars",
-"Later_Button" : "Rate Later",
-"enable_Share_button" : true,
-"Share_TXT" : "Supperr APPS Download Now",
-"More_Button" : "Share Via WhatsApp",
-"Url_More_Apps" : "https:// jika share button TRUE maka tombol MORE berubah SHARE"
+"EXIT_POPUP_DIALOG" : "
+Agar Kami lebih semangat mengembangkan Aplikasi ini
 
-  }
+Bantu kami dengan rating bingtang 5 ya 
+
+Klik tombol rating 
+",
+"RATE_BUTTON" : "Rate 5 Stars",
+"LATER_BUTTON" : "Later",
+"ENABLE_SHARE_BUTTON" : true,
+"SHARE_TXT" : "
+this app is awesome 
+
+you need try to donwload this app
+i.ve download and so much happy
+
+",
+
+"MORE_BUTTON" : "Share Via WhatsApp",
+// Jika share button TRUE maka tombol MORE berubah SHARE
+// isi url more apps jika ENABLE_SHARE_BUTTON  is false
+"URL_MORE_APPS" : "https://play.google.com/store/apps/developer?id=devname"
+
+ }
 }
